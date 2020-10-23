@@ -48,7 +48,7 @@ body {
 }
 .nav-style {
   background-color: #C4C4C4;
-  opacity: 85%;  
+  opacity: .85;  
 }
 
 /* Home section  */
@@ -56,6 +56,28 @@ body {
 #font-arrow {
   color: gray;
   font-size: 48px;  
+}
+
+.bounce {
+    animation: bounce 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 10;
+}
+
+@keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-12px);
+    }
 }
 
 /* Section styling */

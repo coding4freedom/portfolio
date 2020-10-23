@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,6 +22,7 @@
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+        <!--Come back to fix hamburger color issue when collapsed -->
       <div class="collapse navbar-collapse navbar-light justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -42,21 +43,65 @@
         
       
 
-      <section class="inner pt-5">
-        <h1 class="blend">Hire <br> A <br>Fullstack <br> Developer <br> Near <br> You.</h1>
-        
-        <div>
-          <a role="button" href="#about">
-            <i class="fa fa-arrow-down" id="font-arrow"></i>
-          </a>          
+      <section class=" pt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="blend">Hire <br> A <br>Fullstack <br> Developer <br> Near <br> You.</h1>
+
+            </div>        
+            <div class="col-12 my-5">
+                <a role="button" href="#about">
+                <i class="fa fa-arrow-down bounce" id="font-arrow"></i>
+                </a>          
+            </div>
+            <div class="col-12">
+                <h1>We Found One, <br />Come Join Him</h1>
+            </div>
         </div>
       </section>
       
       <section id="about">
-        <div class="section1">
-          <h1>About</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, est sint. Provident molestias repellendus iure?</p>   
-        </div>
+          <div class=" row section1">
+              <div class="col-12">
+                  <h1>About</h1>
+              </div>
+              <div class="col-6">
+                  
+                  <img src="#" alt="image of Chris Hawkins" class="img-thumbnail"/>
+                  
+              </div>
+              <div class="col-6">
+                  <article>
+                      <h3>Self Interest</h3>
+                  </article>
+              </div>
+              <div class="col">
+                  <h2>Technologies</h2>
+                  <ul>
+                      <li>Html</li>
+                      <li>CSS</li>
+                      <li>SASS</li>
+                      <li>Bootstrap 4</li>
+                      <li>JavaScript</li>
+                      <li>Node JS</li>
+                      <li>Git/GitHub</li>
+                      <li>Visual Studio Code</li>
+                      <li>Chrome Developer Tools</li>
+                  </ul>
+              </div>
+              <div class="col">
+                  <h2>Skills</h2>
+                  <ul>
+                      <li>Responsive layout</li>
+                      <li>Debugging</li>
+                      <li>Version Control</li>
+                      <li>Teamwork</li>
+                      <li>Communication</li>
+                      <li>Critical Thinking</li>
+                      <li>Accountability</li>
+                  </ul>
+              </div>
+          </div>
              
       </section>
       
@@ -64,7 +109,7 @@
         <div class="row section1">
           <h3>Developed Worked</h3>
         </div>
-        <div class="row section1">
+        <div class="row">
           <div class="card border-dark mb-3" style="max-width: 15rem;">
             <div class="card-header text-change">Header</div>
             <div class="card-body bg-change text-white">
@@ -117,9 +162,33 @@
       </section>
       
       <section id="contact">
-        <div class='section1'>
-          <h1>Contact</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, est sint. Provident molestias repellendus iure?</p>   
+        <div class='row section1'>
+            <div class="col-12">
+              <h1>Contact <hr /></h1>
+              <p>I'm Ready to Join Your Team!</p>   
+            </div>
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Enter Your Full Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="John Doe...">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter your email">                   
+                    </div>
+                    <div class="form-group">
+                        <label for="inputBody">Body of email</label>
+                        <input type="text" class="form-control" placeholder="Message" id="inputBody"/>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </form>
+            </div>
+            <div class="col">
+                <h4>Chris The Full Stack Developer</h4>
+                <p><i class="fa fa-map-marker"></i> Email for current address.</p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i> chris.hawkins.cyber@gmail.com</p>
+            </div>
         </div>
              
       </section>
@@ -127,6 +196,7 @@
       <footer class="mastfoot mt-auto">
         <div class="inner">
           <a href="#">Top</a>
+         </div>
       </footer>
     </div>
 
