@@ -1,6 +1,20 @@
 /*
  * Globals
  */
+hr {
+    border: none;
+    height: 1px;
+    color: dimgrey;
+    background-color: dimgrey;
+}
+
+/* Backdrops for content */
+.roundBackdrop {
+    background-color: #C4C4C4;
+    opacity: .85;
+    border-radius: 15px;
+    padding: 1rem;
+}
 
 /* Links */
 a,
@@ -100,7 +114,7 @@ section p {
 }
 
 .section1 {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .bg-change {
