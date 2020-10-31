@@ -16,13 +16,11 @@
 </head>
 <body id="all-font"> 
     <div class="container-fluid d-flex flex-column mt-5 none">
-        <nav class="navbar navbar-expand-lg nav-style navbar-fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbarNew nav-style">
             <a class="navbar-brand text-dark" href="#">Welcome</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-                    aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!--Come back to fix hamburger color issue when collapsed -->
             <div class="collapse navbar-collapse navbar-light justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
@@ -41,8 +39,30 @@
             </div>
         </nav>
 
-
-
+        <!--<nav class="navbar navbar-expand-lg nav-style navbar-fixed-top">
+        <a class="navbar-brand text-dark" href="#">Welcome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        Come back to fix hamburger color issue when collapsed
+        <div class="collapse navbar-collapse navbar-light justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>-->
         <section class=" pt-5">
             <div class="row">
                 <div class="col-12">
@@ -63,15 +83,15 @@
         <section id="about">
             <div class=" row section1">
                 <div class="col-12">
-                    <h1>About <hr /></h1>
+                    <h1 class="pt-5">About <hr /></h1>
                 </div>
-                <div class="col-md-4 col-xs-12">
+                <div class="col-xs-12 col-md-4 ">
 
                     <img src="#" alt="image of Chris Hawkins" class="img-thumbnail" />
 
                 </div>
-                <div class="col-md-8 col-xs-12">
-                    <article>
+                <div class="col-xs-12 col-md-8">
+                    <article class="mx-4">
                         <h3>Self Interest</h3>
                         <p class="roundBackdrop">Meet Chris, <br />A highly driven full stack web developer. Utilizing his free time to continuously improving knowledge of best practices and emerging technologies. Believing in the holistic approach, by attending leadership workshops to increase communication skills and team cohesion. When it's time to unwind he enjoys drawing and watching anime.</p>
                     </article>
@@ -103,19 +123,19 @@
                     </ul>
                 </div>
             </div>
-            
+
 
         </section>
         <!-- Portfolio section of the page-->
         <section id="portfolio">
             <div class="row section1">
                 <div class="col-12">
-                    <h1>Portfolio <hr /></h1>
+                    <h1 class="pt-5">Portfolio <hr /></h1>
                 </div>
                 <div class="col-12">
                     <h2>Developed Worked</h2>
                 </div>
-            </div>            
+            </div>
             <div class="row">
                 <div class="col-6">
                     <div class="card border-dark mb-3" style="max-width: 15rem;">
@@ -162,10 +182,10 @@
         <section id="contact">
             <div class='row section1'>
                 <div class="col-12">
-                    <h1>Contact <hr /></h1>
+                    <h1 class="pt-5">Contact <hr /></h1>
                     <p>I'm Ready to Join Your Team!</p>
                 </div>
-                <div class="col roundBackdrop">
+                <div class="col roundBackdrop mx-4 order-xs-11">
                     <form>
                         <div class="form-group">
                             <label for="inputName">Enter Your Full Name</label>
@@ -182,7 +202,7 @@
                         <button type="submit" class="btn btn-secondary">Submit</button>
                     </form>
                 </div>
-                <div class="col">
+                <div class="col order-xs-1">
                     <h4>Chris The Full Stack Developer</h4>
                     <p><i class="fa fa-map-marker"></i> Email for current address.</p>
                     <p><i class="fa fa-envelope" aria-hidden="true"></i> chris.hawkins.cyber@gmail.com <hr /></p>
@@ -190,12 +210,6 @@
             </div>
 
         </section>
-
-        <footer class="mastfoot mt-auto">
-            <div class="inner">
-                <a href="#">Top</a>
-            </div>
-        </footer>
     </div>
 
     <!--Jquery then popper.js and then bootrap  -->

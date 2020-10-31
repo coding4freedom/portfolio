@@ -8,6 +8,10 @@ hr {
     background-color: dimgrey;
 }
 
+ul {
+    white-space: nowrap;
+}
+
 /* Backdrops for content */
 .roundBackdrop {
     background-color: #C4C4C4;
@@ -51,10 +55,10 @@ body {
    margin: 0;
  }
 
-/*
+/*  i think is navbar
  * Navbar section
  */
-.navbar {
+.navbarNew {
   position: fixed;
   top: 0;
   z-index: 1;
